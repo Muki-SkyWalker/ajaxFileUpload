@@ -1,0 +1,18 @@
+@main {
+    <div class="container">
+        <h1>Ajax File Upload Demo</h1>
+
+        <form id="myForm" action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" size="60" name="fileUpload">
+            <input type="submit" value="Ajax File Upload">
+        </form>
+
+        <div class="progress">
+            <div class="progress-bar" id="ajaxprogressbar">
+            </div>
+        </div>
+
+        <div id="message"></div>
+
+    </div>
+}
